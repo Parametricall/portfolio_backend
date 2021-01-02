@@ -49,6 +49,14 @@ python-versions = ">=3.5"
 django = ">=2.2"
 
 [[package]]
+name = "drf-writable-nested"
+version = "0.6.2"
+description = "Writable nested helpers for django-rest-framework's serializers"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "pytz"
 version = "2020.5"
 description = "World timezone definitions, modern and historical"
@@ -67,7 +75,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.1"
-content-hash = "9556ff9da224150e7b6972440a9ea2a1f76209a0d0abb532daa32bc774117e53"
+content-hash = "23520270e631a32bc628d2bdbd8c748362c943802fb8962f2735d4dcc7433846"
 
 [metadata.files]
 asgiref = [
@@ -84,6 +92,9 @@ django-cors-headers = [
 ]
 djangorestframework = [
     {file = "djangorestframework-3.12.2-py3-none-any.whl", hash = "sha256:0209bafcb7b5010fdfec784034f059d512256424de2a0f084cb82b096d6dd6a7"},
+]
+drf-writable-nested = [
+    {file = "drf_writable_nested-0.6.2-py3-none-any.whl", hash = "sha256:bb413286bd5ebf943460ba7c2dc177d572d6447d5287228cc763062c5a12e3d6"},
 ]
 pytz = [
     {file = "pytz-2020.5-py2.py3-none-any.whl", hash = "sha256:16962c5fb8db4a8f63a26646d8886e9d769b6c511543557bc84e9569fb9a9cb4"},
